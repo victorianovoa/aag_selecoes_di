@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AAG Seleções - Sistema de Gestão de Concursos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="main-header">
+        <div class="header-content">
+            <div class="logo">
+                <i class="fas fa-graduation-cap"></i>
+                <h1>AAG Seleções</h1>
+            </div>
+            <nav class="main-nav">
+                <a href="#" data-page="home" class="nav-link active">
+                    <i class="fas fa-home"></i>
+                    <span>Início</span>
+                </a>
+                <a href="#" data-page="bancas" class="nav-link">
+                    <i class="fas fa-building"></i>
+                    <span>Bancas</span>
+                </a>
+                <a href="#" data-page="editais" class="nav-link">
+                    <i class="fas fa-file-alt"></i>
+                    <span>Editais</span>
+                </a>
+                <a href="#" data-page="planner" class="nav-link">
+                    <i class="fas fa-calendar-alt"></i>
+                    <span>Planner</span>
+                </a>
+                <a href="#" data-page="boletim" class="nav-link">
+                    <i class="fas fa-chart-line"></i>
+                    <span>Boletim</span>
+                </a>
+            </nav>
+            <div class="header-actions">
+                <button id="themeToggle" class="icon-btn" title="Alternar tema">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button id="notificationsBtn" class="icon-btn" title="Notificações">
+                    <i class="fas fa-bell"></i>
+                    <span class="badge">3</span>
+                </button>
+                <div class="user-menu">
+                    <button class="user-btn">
+                        <img src="https://ui-avatars.com/api/?name=Fernanda+Costa&background=6366f1&color=fff" alt="User">
+                        <span>Fernanda Costa</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="dropdown-menu">
+                        <a href="#" data-page="perfil"><i class="fas fa-user"></i> Meu Perfil</a>
+                        <a href="#" data-page="pagamentos"><i class="fas fa-credit-card"></i> Pagamentos</a>
+                        <a href="#" data-page="configuracoes"><i class="fas fa-cog"></i> Configurações</a>
+                        <hr>
+                        <a href="#" class="logout"><i class="fas fa-sign-out-alt"></i> Sair</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Home Page -->
+        <section id="home-page" class="page active">
+            <div class="welcome-banner">
+                <div class="welcome-text">
+                    <h2>Bem-vinda, Fernanda! 👋</h2>
+                    <p>Continue sua jornada de preparação para os concursos</p>
+                </div>
+                <div class="quick-stats">
+                    <div class="stat-card">
+                        <i class="fas fa-book-open"></i>
+                        <div>
+                            <span class="stat-value">18</span>
+                            <span class="stat-label">Horas esta semana</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-target"></i>
+                        <div>
+                            <span class="stat-value">5</span>
+                            <span class="stat-label">Editais ativos</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-trophy"></i>
+                        <div>
+                            <span class="stat-value">98.5</span>
+                            <span class="stat-label">Pontos acumulados</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dashboard-grid">
+                <!-- Alertas Importantes -->
+                <div class="card alert-card priority">
+                    <div class="card-header">
+                        <h3><i class="fas fa-exclamation-circle"></i> Alertas Importantes</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="alert-item urgent">
+                            <div class="alert-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="alert-content">
+                                <h4>Encerra hoje. Pague a GRU.</h4>
+                                <p>Receita Federal - Vencimento: 23:59</p>
+                            </div>
+                            <button class="btn-primary">Pagar Agora</button>
+                        </div>
+                        <div class="alert-item warning">
+                            <div class="alert-icon">
+                                <i class="fas fa-calendar-check"></i>
+                            </div>
+                            <div class="alert-content">
+                                <h4>Prova próxima: TJDFT - T.I.</h4>
+                                <p>Data: 15/12/2025 às 14:00</p>
+                            </div>
+                            <button class="btn-secondary">Ver Detalhes</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Rotina de Estudos -->
+                <div class="card">
+                    <div class="card-header">
+                        <h3><i class="fas fa-book"></i> Sua Rotina de Estudos</h3>
+                        <button class="btn-text">Ver todas</button>
+                    </div>
+                    <div class="card-body">
+                        <div class="study-item">
+                            <div class="study-info">
+                                <h4>Art. 5º - Direitos Fundamentais</h4>
+                                <p>Direito Constitucional</p>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 75%"></div>
+                                </div>
+                                <span class="progress-text">75% concluído</span>
+                            </div>
+                            <div class="study-time">
+                                <i class="fas fa-clock"></i>
+                                <span>2h restantes</span>
+                            </div>
+                        </div>
+                        <div class="study-item">
+                            <div class="study-info">
+                                <h4>Segurança da Informação</h4>
+                                <p>Tecnologia da Informação</p>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 40%"></div>
+                                </div>
+                                <span class="progress-text">40% concluído</span>
+                            </div>
+                            <div class="study-time">
+                                <i class="fas fa-clock"></i>
+                                <span>4h restantes</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Próximas Provas -->
+                <div class="card">
+                    <div class="card-header">
+                        <h3><i class="fas fa-calendar-day"></i> Próximas Provas</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="exam-item">
+                            <div class="exam-date">
+                                <span class="day">15</span>
+                                <span class="month">DEZ</span>
+                            </div>
+                            <div class="exam-details">
+                                <h4>TJDFT - Analista</h4>
+                                <p><i class="fas fa-info-circle"></i> Uma errada anula uma certa. Foco em jurisprudência.</p>
+                                <p><i class="fas fa-map-marker-alt"></i> Local: A definir</p>
+                            </div>
+                        </div>
+                        <div class="exam-item">
+                            <div class="exam-date">
+                                <span class="day">22</span>
+                                <span class="month">DEZ</span>
+                            </div>
+                            <div class="exam-details">
+                                <h4>Receita Federal - Auditor</h4>
+                                <p><i class="fas fa-info-circle"></i> Prova objetiva e discursiva</p>
+                                <p><i class="fas fa-map-marker-alt"></i> Local: UniCEUB - Asa Norte</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Ranking -->
+                <div class="card">
+                    <div class="card-header">
+                        <h3><i class="fas fa-medal"></i> Sua Posição</h3>
+                        <span class="badge-success">Top 3%</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="ranking-item current-user">
+                            <span class="position">1º</span>
+                            <img src="https://ui-avatars.com/api/?name=Fernanda+Costa&background=22c55e&color=fff" alt="Fernanda">
+                            <div class="ranking-info">
+                                <h4>Fernanda Costa (Você)</h4>
+                                <span class="status approved">Aprovado</span>
+                            </div>
+                            <span class="points">98.5 pts</span>
+                        </div>
+                        <div class="ranking-item">
+                            <span class="position">2º</span>
+                            <img src="https://ui-avatars.com/api/?name=Lucas+Mendes&background=3b82f6&color=fff" alt="Lucas">
+                            <div class="ranking-info">
+                                <h4>Lucas Mendes</h4>
+                                <span class="status approved">Aprovado</span>
+                            </div>
+                            <span class="points">96.2 pts</span>
+                        </div>
+                        <div class="ranking-item">
+                            <span class="position">3º</span>
+                            <img src="https://ui-avatars.com/api/?name=Ana+Silva&background=8b5cf6&color=fff" alt="Ana">
+                            <div class="ranking-info">
+                                <h4>Ana Silva</h4>
+                                <span class="status approved">Aprovado</span>
+                            </div>
+                            <span class="points">94.8 pts</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Outras páginas serão carregadas dinamicamente -->
+        <section id="bancas-page" class="page"></section>
+        <section id="editais-page" class="page"></section>
+        <section id="planner-page" class="page"></section>
+        <section id="boletim-page" class="page"></section>
+        <section id="perfil-page" class="page"></section>
+        <section id="pagamentos-page" class="page"></section>
+        <section id="configuracoes-page" class="page"></section>
+    </main>
+
+    <!-- Modal Container -->
+    <div id="modalContainer"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
