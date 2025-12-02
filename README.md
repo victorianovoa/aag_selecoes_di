@@ -1,14 +1,19 @@
 💗✨ AAG Seleções — Sistema de Gestão de Concursos Públicos
+
 🔗 Link do Site: [(https://victorianovoa.github.io/aag_selecoes_di/)]
+
 ───────────────────────────────────────────────
 💗 SEÇÃO 1 — SOBRE O PROJETO
 ───────────────────────────────────────────────
+
 💗 Sobre o Projeto
 O AAG Seleções é um sistema completo pensado para quem está estudando para concursos públicos. Ele organiza páginas, editais, rotinas de estudo, pagamentos, desempenho e muito mais — tudo isso desenvolvido como projeto acadêmico para a disciplina de Desenvolvimento de Interfaces.
 O objetivo principal é entregar uma interface clara, fofa e eficiente, que deixe a jornada de estudos muito mais leve.
+
 ───────────────────────────────────────────────
 💗 SEÇÃO 2 — FUNCIONALIDADES DO SISTEMA
 ───────────────────────────────────────────────
+
 ✨ Funcionalidades Principais
 
 🏠 Página Inicial (Home)
