@@ -1,174 +1,212 @@
-💗✨ AAG Seleções — Sistema de Gestão de Concursos Públicos
+<div align="center">
 
-🔗 Link do Site: [(https://victorianovoa.github.io/aag_selecoes_di/)]
+# 🌸 AAG Seleções  
+**Sistema de Gestão de Concursos Públicos**
 
-───────────────────────────────────────────────
-💗 SEÇÃO 1 — SOBRE O PROJETO
-───────────────────────────────────────────────
+🔗 **Link do Site:** [https://victorianovoa.github.io/aag_selecoes_di/]
 
-💗 Sobre o Projeto
-O AAG Seleções é um sistema completo pensado para quem está estudando para concursos públicos. Ele organiza páginas, editais, rotinas de estudo, pagamentos, desempenho e muito mais — tudo isso desenvolvido como projeto acadêmico para a disciplina de Desenvolvimento de Interfaces.
-O objetivo principal é entregar uma interface clara, fofa e eficiente, que deixe a jornada de estudos muito mais leve.
+</div>
 
-───────────────────────────────────────────────
-💗 SEÇÃO 2 — FUNCIONALIDADES DO SISTEMA
-───────────────────────────────────────────────
+--- 💗 ------------------------------------------------------------
 
-✨ Funcionalidades Principais
+## 💗 Sobre o Projeto  
+O **AAG Seleções** é um sistema completo para organização e acompanhamento de concursos públicos.  
+Foi desenvolvido como projeto acadêmico para a disciplina de **Desenvolvimento de Interfaces**.
 
-🏠 Página Inicial (Home)
-Visão geral do progresso
-Alertas (provas, vencimentos, pagamentos)
-Rotina de estudos com barra de progresso
-Próximas provas
-Ranking de desempenho
+--- 💗 ------------------------------------------------------------
 
-🏛️ Bancas Organizadoras
-Lista das 5 principais bancas: CEBRASPE, FCC, FGV, VUNESP, CESGRANRIO
-Infos completas e critérios de avaliação
-Dicas específicas para cada banca
-Editais abertos por banca
+## ✨ Funcionalidades
 
-📄 Editais
-Lista geral de editais
-Filtros por banca, área, status, busca
-Informações de vagas, salário, datas e áreas
-Links oficiais
+### 🏠 Página Inicial (Home)  
+- Visão geral do progresso nos estudos  
+- Alertas importantes (vencimentos, provas)  
+- Rotina de estudos com barra de progresso  
+- Próximas provas agendadas  
+- Ranking de desempenho  
 
-📅 Planner de Estudos
-Calendário mensal
-Adicionar/remover eventos
-Categorias com cores: estudo, prova, pagamento, outros
-Lista dos próximos eventos
+### 🏛️ Bancas Organizadoras  
+- 5 principais bancas: **CEBRASPE, FCC, FGV, VUNESP, CESGRANRIO**  
+- Informações detalhadas  
+- Critérios específicos de avaliação  
+- Dicas de estudo  
+- Editais abertos por banca  
 
-📊 Boletim de Performance
-Estatísticas detalhadas
-Progresso por disciplina
-Histórico de simulados
-Ranking
-Conquistas e medalhas
+### 📄 Editais  
+- Lista completa de editais disponíveis  
+- Sistema de filtros (busca, banca, status)  
+- Informações detalhadas: vagas, salário, datas  
+- Áreas de atuação  
+- Links oficiais  
 
-👤 Perfil do Usuário
-Dados pessoais
-Endereço
-Preferências de concursos
-Áreas de foco
-Edição de informações
+### 📅 Planner de Estudos  
+- Calendário mensal interativo  
+- Adicionar/remover eventos  
+- Categorias: Estudo, Prova, Pagamento, Outros  
+- Lista de próximos eventos  
+- Legendas visuais por tipo  
 
-💸 Pagamentos
-Lista de inscrições pendentes
-Histórico
-Boleto / PIX
-Comprovantes
+### 📊 Boletim de Performance  
+- Estatísticas de horas estudadas  
+- Progresso por disciplina  
+- Histórico de simulados  
+- Ranking geral  
+- Conquistas e medalhas  
 
-⚙️ Configurações
-Notificações
-Tema claro/escuro
-Segurança
-Gerenciamento de dados
-Alteração de senha
+### 👤 Perfil do Usuário  
+- Informações pessoais completas  
+- Endereço  
+- Preferências de concursos  
+- Áreas de foco  
+- Edição de dados  
 
-───────────────────────────────────────────────
-💗 SEÇÃO 3 — CARACTERÍSTICAS TÉCNICAS
-───────────────────────────────────────────────
+### 💸 Pagamentos  
+- Inscrições pendentes com alertas  
+- Histórico de pagamentos  
+- Suporte para boleto e PIX  
+- Comprovantes para download  
 
-🎨 Tecnologias Utilizadas
-HTML5 — estrutura semântica
-CSS3 — variáveis, responsividade, animações
-JavaScript (Vanilla) — modais, filtros, planner, tema, dinâmicas gerais
+### ⚙️ Configurações  
+- Notificações personalizadas  
+- Alternância de tema (Claro/Escuro)  
+- Segurança e privacidade  
+- Gerenciamento de dados  
+- Alteração de senha  
 
-✨ Design
-Interface responsiva
-Tema claro/escuro
-Animações suaves
-Componentização simples
-Paleta moderna + toques rosinha
+--- 💗 ------------------------------------------------------------
 
-🧩 Arquitetura
-Separação clara entre HTML, CSS e JS
-Navegação estilo SPA (simulada)
-Armazenamento local para preferências
+## 🎨 Características Técnicas
 
-───────────────────────────────────────────────
-💗 SEÇÃO 4 — ESTRUTURA DE ARQUIVOS
-───────────────────────────────────────────────
-📁 Estrutura do Projeto
+### 💗 Tecnologias Utilizadas  
+- **HTML5** — estrutura  
+- **CSS3** — estilização com variáveis  
+- **JavaScript (Vanilla)** — funcionalidades dinâmicas  
+
+--- 💗 ------------------------------------------------------------
+
+### ✨ Design  
+- Interface responsiva  
+- Modo claro e escuro  
+- Animações suaves  
+- Componentes modulares  
+- Paleta de cores moderna  
+
+--- 💗 ------------------------------------------------------------
+
+### 🧩 Arquitetura  
+- Separação clara entre HTML, CSS e JS  
+- Código modular e reutilizável  
+- Navegação estilo SPA  
+- Armazenamento local para preferências  
+
+--- 💗 ------------------------------------------------------------
+
+## 📁 Estrutura de Arquivos
+
 aag-selecoes/
-│── index.html      # Página principal
-│── styles.css      # Estilos do projeto
-│── script.js       # Funções JS
-└── README.md       # Este arquivo
-───────────────────────────────────────────────
-💗 SEÇÃO 5 — COMO USAR
-───────────────────────────────────────────────
-🚀 Instalação
-📥 Criar o projeto
+│── index.html # Estrutura HTML principal
+│── styles.css # Estilização completa
+│── script.js # JavaScript final
+└── README.md # Este arquivo
+
+--- 💗 ------------------------------------------------------------
+
+## 🚀 Como Usar
+
+### 📥 Instalação  
+
+Crie a pasta:
+
 mkdir aag-selecoes
 cd aag-selecoes
-📄 Criar os arquivos
-index.html
-styles.css (CSS Parts 1–4)
-script.js (JS Parts 1–5)
-💗 Abrir no navegador
-Clique em index.html
-ou
-Use um servidor local:
-▶️ Servidor Local
-Python
-python -m http.server 8000
-Node
-npx http-server
-PHP
-php -S localhost:8000
-Acesse: http://localhost:8000
-───────────────────────────────────────────────
-💗 SEÇÃO 6 — FUNCIONALIDADES EM DESTAQUE
-───────────────────────────────────────────────
-🌙 Tema Dark/Light
-Alternância suave
-Preferência salva
-Ícone do sol/lua dinâmico
-📅 Calendário Interativo
-Navegação entre meses
-Eventos coloridos
-Adição rápida
-🔍 Sistema de Filtros
-Busca em tempo real
-Filtros combináveis
-Atualização instantânea
-🪄 Modais Dinâmicos
-Criados sob demanda
-Animações suaves
-Fechamento por clique externo ou botão
-───────────────────────────────────────────────
-💗 SEÇÃO 7 — CRÉDITOS ACADÊMICOS
-───────────────────────────────────────────────
-🎓 Informações
-Disciplina: Desenvolvimento de Interfaces
-Instituição: CEUB - Centro Universitário de Brasília
-Desenvolvedora: Victória Nóvoa
-Data: Dezembro 2025
-───────────────────────────────────────────────
-💗 SEÇÃO 8 — NOTAS DE DESENVOLVIMENTO
-───────────────────────────────────────────────
-💗 Dados Mockados
-Bancas
-Editais
-Eventos
-Pagamentos
-Estatísticas
 
-✨ Melhorias Futuras
-Backend real
-Autenticação
-Notificações push
-Sincronização com calendário
-Exportação (PDF/Excel)
-Integração com pagamentos
-───────────────────────────────────────────────
-💗 SEÇÃO 9 — PERSONALIZAÇÃO
-───────────────────────────────────────────────
-🎀 Cores
+Crie os arquivos:
+
+- **index.html** — cole o HTML completo  
+- **styles.css** — junte CSS Parts 1–4  
+- **script.js** — junte JS Parts 1–5  
+
+### 💗 Abrir no Navegador  
+- Clique em **index.html**  
+ou  
+- Use um servidor local  
+
+--- 💗 ------------------------------------------------------------
+
+## ▶️ Servidor Local (Recomendado)
+
+### Python 3  
+python -m http.server 8000
+
+### Node.js  
+npx http-server
+
+### PHP  
+php -S localhost:8000
+
+Acesse no navegador:  
+**http://localhost:8000**
+
+--- 💗 ------------------------------------------------------------
+
+## ✨ Funcionalidades em Destaque
+
+### 🌙 Tema Dark/Light  
+- Alternância automática  
+- Preferência salva  
+- Ícone dinâmico (lua/sol)  
+
+### 📅 Calendário Interativo  
+- Troca de meses  
+- Visualização de eventos  
+- Adição rápida  
+- Indicadores por tipo  
+
+### 🔍 Sistema de Filtros  
+- Busca em tempo real  
+- Filtros combinados  
+- Resultados imediatos  
+
+### 🪄 Modais Dinâmicos  
+- Criados sob demanda  
+- Conteúdo personalizado  
+- Animações suaves  
+- Fechamento por overlay ou botão  
+
+--- 💗 ------------------------------------------------------------
+
+## 🎓 Créditos Acadêmicos  
+- **Disciplina:** Desenvolvimento de Interfaces  
+- **Instituição:** CEUB - Centro Universitário de Brasília 
+- **Desenvolvedor(a):** Victória Nóvoa 
+- **Data:** Dezembro 2025  
+
+--- 💗 ------------------------------------------------------------
+
+## 📝 Notas de Desenvolvimento
+
+### 💗 Dados Mockados  
+Os dados são apenas demonstrativos:  
+- Bancas e editais  
+- Eventos do calendário  
+- Histórico de pagamentos  
+- Estatísticas de desempenho  
+
+--- 💗 ------------------------------------------------------------
+
+### ✨ Melhorias Futuras  
+- Backend real  
+- Sistema de autenticação  
+- Notificações push  
+- Sync com calendário do sistema  
+- Exportação para PDF/Excel  
+- Integração com pagamentos  
+
+--- 💗 ------------------------------------------------------------
+
+## 🎨 Personalização
+
+### 🎀 Cores  
+```css
 :root {
   --primary: #ff6bb5;
   --secondary: #ff8bd1;
@@ -176,20 +214,21 @@ Integração com pagamentos
   --warning: #f59e0b;
   --danger: #ef4444;
 }
-✍️ Fonte
+✍️ Fontes
 body {
   font-family: 'Segoe UI', sans-serif;
 }
+--- 💗 ------------------------------------------------------------
 📱 Responsividade
 Desktop: > 1024px
 Tablet: 768–1024px
 Mobile: < 768px
-───────────────────────────────────────────────
-💗 SEÇÃO 10 — REQUISITOS E LICENÇA
-───────────────────────────────────────────────
+--- 💗 ------------------------------------------------------------
 ⚠️ Requisitos
 Navegador moderno
 JavaScript habilitado
 Resolução mínima: 320px
+--- 💗 ------------------------------------------------------------
 📄 Licença
 Projeto acadêmico — uso educacional.
+--- 💗 ------------------------------------------------------------
