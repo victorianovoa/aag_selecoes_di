@@ -36,6 +36,10 @@
                     <i class="fas fa-chart-line"></i>
                     <span>Boletim</span>
                 </a>
+                <a href="#" data-page="contato" class="nav-link">
+                    <i class="fas fa-envelope"></i>
+                    <span>Contato</span>
+                </a>
             </nav>
             <div class="header-actions">
                 <button id="themeToggle" class="icon-btn" title="Alternar tema">
@@ -67,6 +71,31 @@
     <main class="main-content">
         <!-- Home Page -->
         <section id="home-page" class="page active">
+            <!-- CAROUSEL (NOVO) -->
+            <div class="carousel-container">
+                <div class="carousel-track" id="carouselTrack">
+                    <div class="carousel-slide">
+                        <h2>🎓 Bem-vinda ao AAG Seleções</h2>
+                        <p>Seu parceiro na jornada rumo à aprovação em concursos públicos</p>
+                    </div>
+                    <div class="carousel-slide">
+                        <h2>📚 Estude com Organização</h2>
+                        <p>Ferramentas completas para gerenciar seus estudos e editais</p>
+                    </div>
+                    <div class="carousel-slide">
+                        <h2>🏆 Acompanhe seu Progresso</h2>
+                        <p>Rankings, estatísticas e boletins de desempenho</p>
+                    </div>
+                </div>
+                <button class="carousel-btn prev" onclick="prevSlide()">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="carousel-btn next" onclick="nextSlide()">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+                <div class="carousel-indicators" id="indicators"></div>
+            </div>
+
             <div class="welcome-banner">
                 <div class="welcome-text">
                     <h2>Bem-vinda, Fernanda! 👋</h2>
@@ -235,7 +264,101 @@
             </div>
         </section>
 
-        <!-- Outras páginas serão carregadas dinamicamente -->
+        <!-- PÁGINA DE CONTATO (NOVO) -->
+        <section id="contato-page" class="page">
+            <div class="page-header">
+                <h2><i class="fas fa-envelope"></i> Entre em Contato</h2>
+                <p>Estamos aqui para ajudar você em sua jornada</p>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Envie sua Mensagem</h3>
+                    </div>
+                    <div class="card-body">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label>Nome Completo *</label>
+                                <input type="text" class="form-input" placeholder="Digite seu nome" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label>E-mail *</label>
+                                <input type="email" class="form-input" placeholder="seu@email.com" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label>Telefone</label>
+                                <input type="tel" class="form-input" placeholder="(00) 00000-0000">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label>Assunto *</label>
+                                <input type="text" class="form-input" placeholder="Sobre o que você quer falar?" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label>Mensagem *</label>
+                                <textarea class="form-textarea" placeholder="Escreva sua mensagem aqui..." required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn-primary btn-full">
+                                <i class="fas fa-paper-plane"></i> Enviar Mensagem
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                
+                <div class="contact-info">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4>Telefone</h4>
+                            <p>(61) 3333-4444</p>
+                            <p style="font-size: 0.75rem; color: var(--text-muted);">Seg-Sex: 8h às 18h</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>E-mail</h4>
+                            <p>contato@aagselecoes.com.br</p>
+                            <p style="font-size: 0.75rem; color: var(--text-muted);">Resposta em até 24h</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Endereço</h4>
+                            <p>SQN 123, Bloco A</p>
+                            <p style="font-size: 0.75rem; color: var(--text-muted);">Brasília - DF, 70000-000</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div>
+                            <h4>Horário de Atendimento</h4>
+                            <p>Segunda a Sexta: 8h às 18h</p>
+                            <p style="font-size: 0.75rem; color: var(--text-muted);">Sábado: 9h às 13h</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Outras páginas (mantidas do código original) -->
         <section id="bancas-page" class="page"></section>
         <section id="editais-page" class="page"></section>
         <section id="planner-page" class="page"></section>
@@ -244,6 +367,69 @@
         <section id="pagamentos-page" class="page"></section>
         <section id="configuracoes-page" class="page"></section>
     </main>
+
+    <!-- FOOTER (NOVO) -->
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4><i class="fas fa-graduation-cap"></i> AAG Seleções</h4>
+                    <p>Plataforma completa de gestão e acompanhamento para concursos públicos. Organize seus estudos, acompanhe editais e alcance a aprovação dos seus sonhos!</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" title="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-link" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link" title="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="social-link" title="YouTube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul class="footer-links">
+                        <li><a href="#" data-page="home">Início</a></li>
+                        <li><a href="#" data-page="bancas">Bancas</a></li>
+                        <li><a href="#" data-page="editais">Editais</a></li>
+                        <li><a href="#" data-page="planner">Planner</a></li>
+                        <li><a href="#" data-page="boletim">Boletim</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Suporte</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Central de Ajuda</a></li>
+                        <li><a href="#">Perguntas Frequentes</a></li>
+                        <li><a href="#" data-page="contato">Contato</a></li>
+                        <li><a href="#">Política de Privacidade</a></li>
+                        <li><a href="#">Termos de Uso</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <p>Receba novidades sobre concursos e dicas de estudo</p>
+                    <form id="newsletterForm" style="margin-top: 1rem;">
+                        <input type="email" class="form-input" placeholder="Seu e-mail" required style="margin-bottom: 0.5rem;">
+                        <button type="submit" class="btn-primary btn-full">
+                            <i class="fas fa-paper-plane"></i> Inscrever
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 AAG Seleções. Todos os direitos reservados. | Desenvolvido com 💗 para concurseiros</p>
+            </div>
+        </div>
+    </footer>
 
     <!-- Modal Container -->
     <div id="modalContainer"></div>
